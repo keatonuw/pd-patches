@@ -1,0 +1,18 @@
+#N canvas 243 203 546 760 12;
+#X obj 18 78 grain;
+#X text 14 53 array (symbol) \, pos (%) \, dur (ms) \, rate (%) \, trig (bang);
+#X obj 15 250 grainosc;
+#X obj 18 393 sqrtpan;
+#X obj 20 525 maytrig;
+#X text 23 503 trig (bang) \, probability [0 \, 1];
+#X text 21 547 trig (bang);
+#X text 17 466 out left~ \, out right~;
+#X text 16 341 out left~ \, out right~;
+#X text 17 195 output~ \, EOC;
+#X obj 16 596 complex-osc;
+#X text 10 781 output~, f 8;
+#X text 15 1144 ---;
+#X text 17 10 My externals. Keaton Kowal 2023;
+#X obj 304 529 dx;
+#X text 304 503 x (f) \, dt (ms);
+#X text 301 557 dx/dt;
